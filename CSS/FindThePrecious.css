@@ -8,6 +8,20 @@ section {
 	margin: 30px;
 }
 
+/* navbar */ 
+
+.bg-light {
+  background-color: #DD4132;
+}
+
+ul {
+  margin-left: auto;
+  list-style-type: none;
+}
+
+.navbar-nav .nav-link {
+  color: white;
+}
 
 
 /* carousel */
