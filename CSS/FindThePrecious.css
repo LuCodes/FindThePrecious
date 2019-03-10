@@ -8,10 +8,25 @@ section {
 	margin: 30px;
 }
 
+
+body {
+  background-image: url('https://i.ibb.co/jGy6VVp/bg-light.png')
+}
+
+/* fonts */ 
+
+h2
+{
+  font-family: "partybusiness";
+  color: orange;
+  font-size: 1.6vw;
+  vertical-align: top;
+}
+
 /* navbar */ 
 
 .bg-light {
-  background-color: #DD4132;
+  background-color: orange !important;
 }
 
 ul {
@@ -20,7 +35,7 @@ ul {
 }
 
 .navbar-nav .nav-link {
-  color: white;
+  color: white !important;
 }
 
 
@@ -107,6 +122,29 @@ th {
 
 .groupe_image:hover {
 	opacity: 1;
+}
+
+.rewardtext {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.75);
+  border-radius: 2px;
+  color: black;
+  top: 20%;
+  right: 2px;
+  left: 2px;
+  font-size: 2em;
+  margin: 2px;
+  padding: .5em;
+  opacity: 1;
+  text-align: center;
+}
+
+span {
+  color: orange;
+}
+
+.card:hover .rewardtext {
+  opacity : 0;
 }
 
 
