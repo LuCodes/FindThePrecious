@@ -139,6 +139,11 @@ span {
 	color: orange;
 }
 
+h3 span {
+	font-size: 18px;
+
+}
+
 .card:hover .rewardtext {
 	opacity : 0;
 }
@@ -152,7 +157,7 @@ span {
 /* Flooter */ 
 
 footer.row {
-	background-color: gray;
+	background-color: orange;
 	margin: 0;
 
 }
