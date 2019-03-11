@@ -2,25 +2,25 @@
 
 @font-face {
 font-family: 'partybusiness';
-src: url('partybusiness.ttf');
+src: url('../fonts/partybusiness.ttf');
 font-weight: normal;
 font-style: normal;
 }
 @font-face {
 font-family: 'klassen';
-src: url('klassen_aniron.ttf');
+src: url('../fonts/klassen_aniron.ttf');
 font-weight: normal;
 font-style: normal;
 }
 @font-face {
 font-family: 'tngan';
-src: url('tengwar_annatar.ttf');
+src: url('../fonts/tengwar_annatar.ttf');
 font-weight: normal;
 font-style: normal;
 }
 
 p{
-	font-family: 'partybusiness';
+	font-family: 'tngan';
 }
 
 section {
@@ -40,9 +40,32 @@ body {
 h2 {
 	margin-top: 80px;
 	margin-bottom: 20px;
-	font-family:'klassen';
+	font-family:'tngan';
+	text-align: center;
 }
 
+h2:before, h2:after{
+	content:'ij';
+	color:orange;
+	font-family: 'klassen';
+}
+
+h3{
+	font-family:'tngan';
+}
+
+h5{
+	font-family:'tngan';
+}
+
+button {
+	font-family:'tngan';
+}
+
+h6{
+	font-family:'klassen';
+	color:orange;
+}
 /* navbar */ 
 
 .bg-light {
@@ -56,6 +79,7 @@ ul {
 
 .navbar-nav .nav-link {
 	color: white !important;
+	font-family:'tngan';
 }
 
 
@@ -149,7 +173,7 @@ th {
 	background-color: rgba(255, 255, 255, 0.75);
 	border-radius: 2px;
 	color: black;
-	top: 20%;
+	top: 4px;
 	right: 2px;
 	left: 2px;
 	font-size: 2em;
@@ -163,8 +187,8 @@ span {
 	color: orange;
 }
 
-h3 span {
-	font-size: 18px;
+h2 span {
+	font-size: 14px;
 
 }
 
@@ -175,6 +199,8 @@ h3 span {
 .card {
 	margin-right: 50px;
 }
+
+
 
 
 
