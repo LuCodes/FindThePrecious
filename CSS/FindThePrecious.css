@@ -1,12 +1,26 @@
 /* mise en page */
 
 @font-face {
-font-family: 'klassen';
-src: url ('fonts/klassen_aniron.ttf');
+font-family: 'partybusiness';
+src: url('partybusiness.ttf');
+font-weight: normal;
+font-style: normal;
 }
-h2, h5, p{
+@font-face {
+font-family: 'klassen';
+src: url('klassen_aniron.ttf');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: 'tngan';
+src: url('tengwar_annatar.ttf');
+font-weight: normal;
+font-style: normal;
+}
 
-font-family:'klassen';
+p{
+	font-family: 'partybusiness';
 }
 
 section {
