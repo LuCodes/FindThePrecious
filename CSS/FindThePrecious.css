@@ -48,6 +48,7 @@ h2:before, h2:after{
 	content:'ij';
 	color:orange;
 	font-family: 'klassen';
+	vertical-align: top;
 }
 
 h3{
