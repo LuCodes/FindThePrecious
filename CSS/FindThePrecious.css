@@ -1,5 +1,14 @@
 /* mise en page */
 
+@font-face {
+font-family: 'klassen';
+src: url ('fonts/klassen_aniron.ttf');
+}
+h2, h5, p{
+
+font-family:'klassen';
+}
+
 section {
 	padding: 30px;
 }
@@ -17,6 +26,7 @@ body {
 h2 {
 	margin-top: 80px;
 	margin-bottom: 20px;
+	font-family:'klassen';
 }
 
 /* navbar */ 
